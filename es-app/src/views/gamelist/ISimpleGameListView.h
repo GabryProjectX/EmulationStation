@@ -1,9 +1,10 @@
 #pragma once
 
 #include "views/gamelist/IGameListView.h"
-
 #include "components/TextComponent.h"
 #include "components/ImageComponent.h"
+#include <stack>
+#include <set>
 
 class ISimpleGameListView : public IGameListView
 {
